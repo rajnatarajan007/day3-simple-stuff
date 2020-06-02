@@ -4,5 +4,5 @@ COPY config/server.xml /config/
 COPY config/server.env /config/
 
 VOLUME /my-special-folder
-
+COPY Dockerfile /my-special-folder
 USER root
